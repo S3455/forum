@@ -1,0 +1,71 @@
+/* Réinitialisation des styles par défaut du navigateur */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style pour le contenu principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre principal */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les liens */
+a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #333;
+}
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style pour les liens du pied de page */
+footer a {
+    color: #ff5733;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
