@@ -8,11 +8,6 @@
     </head>
     <body>
         <header>
-        <p>
-        <a href="index.php?ctrl=security&action=loginForm">Se connecter</a>
-        <span>&nbsp;-&nbsp;</span>
-        <a href="index.php?ctrl=security&action=registerForm">S'inscrire</a>
-        </p>
         </header>
         <main>
     <h1>BIENVENUE SUR LE FORUM</h1>
@@ -24,8 +19,7 @@
 
         </main>
         <footer>
-        <p>&copy; 2020 - Forum CDA - <a href="#">Règlement du forum</a> - <a href="">Mentions légales</a></p>
-        <a href="/sitemap.xml">Plan du site</a>
+        <a href="view/sitemap.xml">Plan du site</a>
         </footer>
     </body>
 </html>
