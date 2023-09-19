@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <title>Document</title>
+    <meta name="description" content="Découvrez un monde de sujets fascinants - visitez notre page de la liste des topics et explorez des discussions enrichissantes.">
+    <title>List Topics</title>
   </head>
     <body>
       <main>
+        <?
         $topics = $result["data"]['topics'];
 
         ?>
@@ -30,6 +31,9 @@
         }
         ?>
       </main>
+      <footer>
+
+      </footer>
     </body>
 </html>
 <?php

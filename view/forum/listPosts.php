@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Explorez une vaste collection de posts captivants - découvrez notre page de la liste des posts et plongez dans des discussions passionnantes."">
+        <meta name="description" content="Explorez une vaste collection de posts captivants - découvrez notre page de la liste des posts et plongez dans des discussions passionnantes.">
         <title>Liste des postes</title>
     </head>
     <body>

@@ -2,10 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="">
-        <title>Document</title>
+        <meta name="description" content="Only Admin">
+        <title>List Users</title>
     </head>
     <body>
+        <main>
         <?php
 
         $users = $result["data"]['users'];
@@ -24,6 +25,10 @@
             <?php
         }   
             ?>
+        </main>
+        <footer>
+
+        </footer>
     </body>
 </html>
 

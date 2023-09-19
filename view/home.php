@@ -17,7 +17,7 @@
         <main>
     <h1>BIENVENUE SUR LE FORUM</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ut nemo quia voluptas numquam, itaque ipsa soluta ratione eum temporibus aliquid, facere rerum in laborum debitis labore aliquam ullam cumque.
+    <p>Ce forum a été créé pour rassembler les passionnés de jeux vidéo du monde entier. Notre objectif est de fournir un espace convivial et collaboratif où les joueurs peuvent se connecter, discuter de leurs jeux préférés, partager leurs expériences, obtenir des conseils et rester à jour sur les dernières actualités du monde du gaming.
     </p>
 
     <p>inspiré de <a href="https://www.reddit.com/" rel="nofollow">Reddit</a></p>
