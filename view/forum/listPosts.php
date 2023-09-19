@@ -10,7 +10,7 @@
 
         </header>
         <main>
-            <?php
+            <?phps
 
             $posts = $result["data"]['posts'];
                 
