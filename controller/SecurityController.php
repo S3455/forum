@@ -130,5 +130,23 @@
             $this->redirectTo("view", "index");
         }
 
+        public function banUser($id){
+
+            $userManager = new UserManager();
+    
+            if($id){
+    
+                $user = $userManager->findOneById($id);
+    
+                $userManager->sendDiscordPayloadOnUserBan($user->getUsername(), Session::getUser()->getUsername());
+                $userManager->banUser($id);
+                Session::addFlash('success', 'La personne a bien été banni !');
+                $this->redirectTo('security', 'showProfile', $id);
+            }else{
+                Session::addFlash('error', 'Attention, on ne modifie pas l\'URL !');
+                $this->redirectTo('forum', 'home');
+            }
+        }
+
 
     }
