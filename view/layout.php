@@ -18,33 +18,31 @@
                 <nav>
                     <div id="nav-left">
                         <a href="view/home.php">Accueil</a>
+                        <a href="index.php?ctrl=forum">la liste des topics</a>
+                        <a href="index.php?ctrl=forum&action=viewAllPost">la liste des posts</a>
+                        <a href="index.php?ctrl=forum&action=viewCat">la liste des categories</a>
                         <?php
                         if(App\Session::isAdmin()){
                             ?>
                             <a href="index.php?ctrl=forum&action=viewAllUser">la liste des users</a>
+                            
                           
                             <?php
                         }
                         ?>
                     </div>
-                    <div id="#">
+                    <div id="nav-right">
                     <?php
                         
                         if(App\Session::getUser()){
                             ?>
                             <a href="/security/viewProfile.html"><?= App\Session::getUser()->getNickname()?></a>
                             <a href="index.php?ctrl=security&action=logout">Déconnexion</a>
-                            <a href="index.php?ctrl=forum">la liste des topics</a>
-                            <a href="index.php?ctrl=forum&action=viewAllPost">la liste des posts</a>
-                            <a href="index.php?ctrl=forum&action=viewCat">la liste des categories</a>
                             <?php
                         }else{
                             ?>
                             <a href="index.php?ctrl=security&action=loginForm">Connexion</a>
                             <a href="index.php?ctrl=security&action=registerForm">Inscription</a>
-                            <a href="index.php?ctrl=forum">la liste des topics</a>
-                            <a href="index.php?ctrl=forum&action=viewAllPost">la liste des posts</a>
-                            <a href="index.php?ctrl=forum&action=viewCat">la liste des categories</a>
                         <?php
                         }
                     ?>

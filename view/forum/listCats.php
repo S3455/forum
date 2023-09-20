@@ -7,7 +7,7 @@
   </head>
   <body>
     <main>
-      <?
+      <?php
       
       $cats = $result["data"]['cats'];
 

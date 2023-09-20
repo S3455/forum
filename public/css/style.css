@@ -20,7 +20,7 @@ header {
 
 /* Style pour le contenu principal */
 main {
-    max-width: 800px;
+    max-width: 95em;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -68,4 +68,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.nav-left {
+    display: flex;
+    text-align: start;
 }

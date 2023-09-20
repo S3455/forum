@@ -7,15 +7,13 @@
         <link rel="stylesheet" href="public/css/style.css">
     </head>
     <body>
-        <header>
-        </header>
         <main>
     <h1>BIENVENUE SUR LE FORUM</h1>
 
     <p>Ce forum a été créé pour rassembler les passionnés de jeux vidéo du monde entier. Notre objectif est de fournir un espace convivial et collaboratif où les joueurs peuvent se connecter, discuter de leurs jeux préférés, partager leurs expériences, obtenir des conseils et rester à jour sur les dernières actualités du monde du gaming.
     </p>
 
-    <p>inspiré de <a href="https://www.reddit.com/" rel="nofollow">Reddit</a></p>
+    <p class="NF">inspiré de <a href="https://www.reddit.com/" rel="nofollow">Reddit</a></p>
 
         </main>
         <footer>
